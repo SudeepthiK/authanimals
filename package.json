@@ -1,0 +1,22 @@
+{
+  "name": "authanimals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha  --  tests/**/*.spec.js  tests/*.spec.js",
+    "start": "node index.js"
+  },
+  
+  "author": "",
+  "license": "ISC",
+  
+  "dependencies": {
+    "jsonwebtoken": "^8.1.1",
+    "restify": "^6.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+ 
+}
